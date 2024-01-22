@@ -1,6 +1,6 @@
-# LLM Instruct for OpenIE
+# Prompts for OpenIE
 
-LLM zero-shot instruct for OpenIE task.
+Prompts for zero-shot OpenIE.
 
 OpenIE gives a structural representation of the facts in a sentence as `<subject, predicate, object>`. It is helpful for relation extractions with limited or no training data. The tuples extracted by OpenIE may help knowledge graph schema design or factual question and answer.
 
