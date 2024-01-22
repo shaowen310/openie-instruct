@@ -1,6 +1,6 @@
 import argparse
 import logging
-from easyinstruct import IEPrompt
+from instruct import IEPrompt
 
 logger = logging.getLogger(__file__)
 
