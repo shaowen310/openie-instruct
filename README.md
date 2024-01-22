@@ -9,11 +9,10 @@ Since the extracted relation tuples are under the Resource Description Framework
 An example prompt is written as follows:
 
 ```
-You are a highly intelligent and accurate Resource Description Framework (RDF) data model. You take Passage as input and convert it into RDF triples. A triple is a set of three entities that codifies a statement about semantic data in the form of subject-predicate-object expressions.
+You are a highly intelligent and accurate Resource Description Framework (RDF) data model. You take Passage as input and convert it into RDF triples.
+A triple is a set of three entities that codifies a statement about semantic data in the form of subject-predicate-object expressions.
 Your output format is only [[ subject, predicate, object ], ...], nothing else.
-
 Input: [Sentence]
-
 Output: 
 ```
 
