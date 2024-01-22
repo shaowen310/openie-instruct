@@ -6,7 +6,7 @@ Easy instruct for OpenIE.
 
 ```bash
 # EasyInstruct
-python -m pip install easyinstruct -i https://pypi.org/simple
+python -m pip install git+https://github.com/zjunlp/EasyInstruct@main
 ```
 
 ## Citation
