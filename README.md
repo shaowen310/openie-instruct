@@ -1,14 +1,10 @@
 # LLM Instruct for OpenIE
 
-LLM instruct for OpenIE task.
+LLM zero-shot instruct for OpenIE task.
 
 ## Dependencies
 
 ```bash
-# EasyInstruct
-python -m pip install git+https://github.com/zjunlp/EasyInstruct@main
-python -m pip install -e ./easyinstruct
-
 # OpenAI
 conda install openai
 ```
