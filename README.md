@@ -2,7 +2,7 @@
 
 LLM zero-shot instruct for OpenIE task.
 
-OpenIE gives a structural representation of the facts in a sentence as `<subject, predicate, object>`. It is helpful for relation extractions with limited or no training data or on an open domain. The tuples extracted by OpenIE may help knowledge graph schema design or factual question and answer.
+OpenIE gives a structural representation of the facts in a sentence as `<subject, predicate, object>`. It is helpful for relation extractions with limited or no training data. The tuples extracted by OpenIE may help knowledge graph schema design or factual question and answer.
 
 Since the extracted relation tuples are under the Resource Description Framework (RDF) data model, I adopted the RDF extraction prompt for OpenIE and gave the solution.
 
