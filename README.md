@@ -1,6 +1,6 @@
-# openie-easyinstruct
+# LLM Instruct for OpenIE
 
-Easy instruct for OpenIE.
+LLM instruct for OpenIE task.
 
 ## Dependencies
 
