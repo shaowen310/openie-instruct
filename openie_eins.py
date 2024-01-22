@@ -33,16 +33,18 @@ def main(args):
     #     examples = prepare_examples(args.data_path, args.task, args.language)
 
     with open(args.input_file, "r") as infile:
-        for sentence in infile:
-            ie_prompter.build_prompt(
-                prompt=sentence,
-                language="en",
-                in_context=False,
-            )
+        with open(args.output_file, "w") as outfile:
+            for sentence in infile:
+                ie_prompter.build_prompt(
+                    prompt=sentence,
+                    language="en",
+                    in_context=False,
+                )
 
-            result = ie_prompter.get_openai_result()
+                result = ie_prompter.get_openai_result()
 
-    logger.info(result)
+                outfile.write(result)
+                outfile.write("\n")
 
 
 if __name__ == "__main__":
