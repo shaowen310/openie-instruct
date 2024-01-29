@@ -10,13 +10,13 @@ An example prompt is written as follows:
 
 ```
 You are a highly intelligent and accurate Resource Description Framework (RDF) data model. You take Passage as input and convert it into RDF triples.
-A triple is a set of three entities that codifies a statement about semantic data in the form of subject-predicate-object expressions.
+A triple is a set of three entities that codifies a statement about semantic data in subject-predicate-object expressions.
 Your output format is only [[ subject, predicate, object ], ...], nothing else.
 Input: [Sentence]
 Output: 
 ```
 
-I analysed ten extractions and found that the extractions produced by the above prompt are worse than the ones produced by the following prompt
+I analyzed ten extractions and found that the extractions produced by the above prompt are worse than the ones produced by the following prompt.
 
 ```
 Please exhaustively express the information from the text in a list of
@@ -34,7 +34,7 @@ Note that your answer should only contain the json string.
 Text: [Sentence].
 ```
 
-Seems more detailed instructions will lead to better extractions.
+More detailed instructions will lead to better extractions.
 
 ## Dependencies
 
@@ -43,7 +43,7 @@ Seems more detailed instructions will lead to better extractions.
 conda install openai
 ```
 
-## Citation
+## References
 
 I used codes and prompts from `easyinstruct`. Citation for `easyinstruct`
 
